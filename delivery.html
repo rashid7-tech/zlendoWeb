@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zlendo – Delivery & Support</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+
+
+<!-- Header -->
+  <header class="bg-white border-bottom">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand " href="index.html"><img src="assets/images/logo-main.svg"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navMain" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMain">
+          <ul class="navbar-nav mx-auto align-items-center">
+            <li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
+
+            <!-- Products Mega Menu -->
+            <li class="nav-item dropdown position-static">
+              <a class="nav-link dropdown-toggle" href="#" role="button"
+                 data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+              <div class="dropdown-menu mega-menu py-4 px-2" id="productsMega">
+                <div class="container">
+                  <ul class="nav nav-pills mega-tabs mb-4 column-gap-2" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link active" data-bs-toggle="pill" data-bs-target="#tabHR" onclick="event.stopPropagation()">Human Resource</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-bs-toggle="pill" data-bs-target="#tabFin" onclick="event.stopPropagation()">Finance</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-bs-toggle="pill" data-bs-target="#tabAI" onclick="event.stopPropagation()">AI</a>
+                    </li>
+                  </ul>
+
+                  <div class="tab-content mega-body ">
+                    <!-- Human Resource -->
+                    <div class="tab-pane fade show active" id="tabHR">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <h6 class="text-uppercase text-muted mb-4">Solution</h6>
+                          <h5 class="mb-2">Zlendo People</h5>
+                          <p class="text-muted">Optimizing People Management with an Advanced Zlendo People System for Seamless Process.</p>
+                          <a href="https://www.zlendosuite.com/zlendopeople.html" class="text-orange ">Learn More</a>
+                        </div>
+                        <div class="col-md-8">
+                          <h6 class="text-uppercase text-muted mb-4">Tools</h6>
+                          <div class="row">
+                            <div class="col-sm-6 col-lg-4 tool-item">
+                              <a href="https://www.zlendosuite.com/zlendopeople-people.html" class="roundness-2 d-inline-block p-2 prod-hov-fx">
+                                <div>
+                                  <strong>People Management</strong><br>
+                                  <small class="text-muted">Streamline employee data and simplify HR operations</small>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 tool-item">
+                              <a href="https://www.zlendosuite.com/zlendopeople-timesheet.html" class="roundness-2 d-inline-block p-2 prod-hov-fx">
+                                <div>
+                                  <strong>Timesheet Management</strong><br>
+                                  <small class="text-muted">Track hours and approvals</small>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 tool-item">
+                              <a href="https://www.zlendosuite.com/zlendopeople-lms.html" class="roundness-2 d-inline-block p-2 prod-hov-fx">
+                                <div>
+                                  <strong>Leave Management</strong><br>
+                                  <small class="text-muted">Automate leave tracking</small>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 tool-item">
+                              <a href="https://www.zlendosuite.com/zlendopeople-lms.html" class="roundness-2 d-inline-block p-2 prod-hov-fx">
+                                <div>
+                                  <strong>Payroll Management</strong><br>
+                                  <small class="text-muted">Compliant and secure payroll</small>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Finance -->
+                    <div class="tab-pane fade" id="tabFin">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <h6 class="text-uppercase text-muted mb-4">Solution</h6>
+                          <h5 class="mb-2">Zlendo Finance</h5>
+                          <p class="text-muted">Real-time financial insights and automated accounting workflows to drive profitability.</p>
+                          <a href="https://www.zlendosuite.com/zlendofinance.html" class="text-orange ">Learn More</a>
+                        </div>
+                        <div class="col-md-8">
+                          <h6 class="text-uppercase text-muted mb-4">Tools</h6>
+                          <div class="row">
+                            <div class="col-sm-12 col-lg-6 tool-item">
+                              <a href="https://www.zlendosuite.com/zlendofinance.html" class="roundness-2 d-inline-block p-2 prod-hov-fx">
+                                <div>
+                                  <strong>Invoice Management</strong><br>
+                                  <small>Invoice and payment tracking, and approvals ensuring a seamless experience</small>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- AI -->
+                    <div class="tab-pane fade" id="tabAI">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <h6 class="text-uppercase text-muted mb-4">Solution</h6>
+                          <h5>Zlendo AI</h5>
+                          <p>AI - driven automation — enhancing document processing, analytics, chatbots, and computer vision to streamline business operation effortlessly</p>
+                          <a href="#" class="text-orange ">Learn More</a>
+                        </div>
+                        <div class="col-md-8">
+                          <h6 class="text-uppercase text-muted mb-4">Tools</h6>
+                          <div class="row">
+                            <div class="col-sm-6 col-lg-4 tool-item">
+                              <a href="https://www.zlendosuite.com/zlendoai.html" class="roundness-2 d-inline-block p-2 prod-hov-fx">
+                                <div>
+                                  <strong>Zlendo iDocX</strong><br>
+                                  <small>Forecast trends and behavior</small>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 tool-item">
+                              <a href="https://www.zlendosuite.com/iot.html" class="roundness-2 d-inline-block p-2 prod-hov-fx">
+                                <div>
+                                  <strong>IoT</strong><br>
+                                  <small>Conversational automation</small>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 tool-item">
+                              <a href="https://www.zlendosuite.com/computervision.html" class="roundness-2 d-inline-block p-2 prod-hov-fx">
+                                <div>
+                                  <strong>Computer Vision</strong><br>
+                                  <small>Conversational automation</small>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- /.tab-content -->
+                </div>
+              </div>
+            </li>
+
+            <!-- Services dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button">
+                Services
+              </a>
+              <ul class="dropdown-menu p-3">
+                <li><a class="dropdown-item" href="ai-strategy-consulting.html">AI Strategy & Consulting</a></li>
+                <li><a class="dropdown-item" href="custom-ai-dev.html">Custom AI Development</a></li>
+                <li><a class="dropdown-item" href="ai-integration-deployment.html">AI Integration & Deployment</a></li>
+                <li><a class="dropdown-item" href="managed-ai-services.html">Managed AI Services</a></li>
+                <li><a class="dropdown-item" href="software-dev.html">Software Development</a></li>
+                <li><a class="dropdown-item" href="delivery.html">Delivery</a></li>
+              </ul>
+            </li>
+
+            <!-- Solutions dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button">
+                Solutions
+              </a>
+              <ul class="dropdown-menu  p-3">
+                <li><a class="dropdown-item" href="predictive-analytics.html">AI-Powered Predictive Analytics</a></li>
+                <li><a class="dropdown-item" href="process-automation.html">Intelligent Process Automation</a></li>
+                <li><a class="dropdown-item" href="iot-experience.html">AI for Industrial IoT</a></li>
+                <li><a class="dropdown-item" href="customer-experience.html">Customer Experience AI</a></li>
+                <li><a class="dropdown-item" href="data-engineering.html">Data Engineering</a></li>
+                <li><a class="dropdown-item" href="supply-chain.html">AI-Driven Supply Chain Optimization</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <a href="contact-us.html" class="btn-padding btn-outline-primary rounded-pill ms-lg-3">Contact Us</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section class="banner">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-12 col-md-6">
+          <div class="banner-txt">
+            <h1 class="mb-3">Delivery & <span class="text-orange">Support</span></h1>
+            <p class="mb-3">Continuous maintenance, monitoring, and support to keep your software and AI services running smoothly.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-5">
+          <div class="banner-img">
+            <img src="assets/images/delivering-.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Intro -->
+  <section class="what-ipa-txt section-padding">
+    <div class="container text-start">
+      <h2 class="w-75 mx-auto text-orange">
+        We don’t just hand off code. We provide the processes, SLAs, and dedicated teams to ensure ongoing success.
+      </h2>
+    </div>
+  </section>
+
+  <!-- Challenges -->
+  <section class="why-zlendo section-padding bg-grey">
+    <div class="container text-center">
+      <h2 class="section-heading">Support Challenges</h2>
+      <p class="mt-3 mb-4">Why many solutions degrade post-launch:</p>
+      <div class="row justify-content-center">
+        <div class="col-md-4 col-sm-6 mb-3">
+          <div class="light-card text-center">
+            <img src="assets/images/lt-sample-icon.svg" alt="" class="d-inline-block"/>
+            <h5 class="mt-2 mb-2">No SLA Guarantees</h5>
+            <p class="lt-desc-txt">Uncertain response times cause user frustration.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-3">
+          <div class="light-card text-center">
+            <img src="assets/images/lt-sample-icon.svg" alt="" class="d-inline-block"/>
+            <h5 class="mt-2 mb-2">Reactive Only</h5>
+            <p class="lt-desc-txt">Issues get fixed only after they impact users.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-3">
+          <div class="light-card text-center">
+            <img src="assets/images/lt-sample-icon.svg" alt="" class="d-inline-block"/>
+            <h5 class="mt-2 mb-2">Lack of Expertise</h5>
+            <p class="lt-desc-txt">In-house teams might lack niche skills for complex bugs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Zlendo -->
+  <section class="why-zlendo section-padding">
+    <div class="container text-center">
+      <h2 class="section-heading">Why Our Delivery & Support?</h2>
+      <p class="my-4">Dedicated processes and people to keep everything running—no surprises.</p>
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <div class="why-card text-center">
+            <img src="assets/images/industry-expert.png" alt="" class="d-inline-block"/>
+            <h5 class="mt-2">Dedicated Teams</h5>
+            <p class="lt-desc-txt">Named engineers and account managers for single-point accountability.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="why-card text-center">
+            <img src="assets/images/endtoend.png" alt="" class="d-inline-block"/>
+            <h5 class="mt-2">Proactive Monitoring</h5>
+            <p class="lt-desc-txt">Real-time alerts and automated remediation to prevent downtime.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="why-card text-center">
+            <img src="assets/images/secure.png" alt="" class="d-inline-block"/>
+            <h5 class="mt-2">SLA-backed</h5>
+            <p class="lt-desc-txt">Guaranteed response and resolution times you can plan around.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="why-card text-center">
+            <img src="assets/images/success.png" alt="" class="d-inline-block"/>
+            <h5 class="mt-2">Continuous Improvements</h5>
+            <p class="lt-desc-txt">Regular reviews, performance tuning, and feature updates.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Delivery Models -->
+<section class="why-zlendo section-padding bg-grey">
+  <div class="container text-center">
+    <h2 class="section-heading">Delivery Models We Offer</h2>
+    <p class="my-3">Choose a model that best aligns with your team structure and project scale.</p>
+
+    <div class="row justify-content-center">
+      <div class="col-md-4 mb-4">
+        <div class="light-card text-center h-100">
+          <h5 class=" mb-2">IT Staff Augmentation</h5>
+          <p class="text-muted">Scale your internal team by hiring skilled Zlendo professionals. Fill gaps fast and boost productivity while retaining control.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="light-card text-center h-100">
+          <h5 class=" mb-2">Dedicated Development Teams</h5>
+          <p class="text-muted">Fully committed Zlendo units that operate as an extension of your organization—offering consistency and deep domain alignment.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="light-card text-center h-100">
+          <h5 class=" mb-2">Software Project Outsourcing</h5>
+          <p class="text-muted">End-to-end responsibility for project execution, from planning to delivery. We manage scope, timelines, and performance for you.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Offerings -->
+  <section class="section-padding">
+    <div class="container">
+      <h3 class="section-heading text-center mb-5">Our Delivery Approach</h3>
+      <div class="fix-div">
+        <div class="row align-items-center justify-content-center mb-5">
+          <div class="col-12 col-md-5">
+            <h5>Understanding Your Needs</h5>
+            <p class="lt-desc-txt">We collaborate deeply to define clear goals, KPIs, and success metrics.</p>
+          </div>
+          <div class="col-12 col-md-5">
+            <img src="assets/images/rafiki.png" alt="Support & Maintenance" class="img-fluid w-100"/>
+          </div>
+        </div>
+        <div class="row align-items-center justify-content-center mb-5">
+          <div class="col-12 col-md-5">
+            <img src="assets/images/rafiki.png" alt="Proactive Updates" class="img-fluid w-100"/>
+          </div>
+          <div class="col-12 col-md-5">
+            <h5>Strategic Planning</h5>
+            <p class="lt-desc-txt">We map your unique business objectives to a clear delivery roadmap.</p>
+          </div>
+        </div>
+        <div class="row align-items-center justify-content-center mb-5">
+          <div class="col-12 col-md-5">
+            <h5>Agile Execution</h5>
+            <p class="lt-desc-txt">Our iterative models ensure transparency, feedback loops, and speed.</p>
+          </div>
+          <div class="col-12 col-md-5">
+            <img src="assets/images/rafiki.png" alt="Dedicated Team" class="img-fluid w-100"/>
+          </div>
+        </div>
+        <div class="row align-items-center justify-content-center mb-5">
+          <div class="col-12 col-md-5">
+            <img src="assets/images/rafiki.png" alt="Proactive Updates" class="img-fluid w-100"/>
+          </div>
+          <div class="col-12 col-md-5">
+            <h5>Continuous Improvement</h5>
+            <p class="lt-desc-txt">We analyze, adapt, and optimize at every phase of your project.</p>
+          </div>
+        </div>
+        <div class="row align-items-center justify-content-center mb-5">
+          <div class="col-12 col-md-5">
+            <h5>Client Collaboration</h5>
+            <p class="lt-desc-txt">You’re always in the loop with structured reviews and proactive reporting.</p>
+          </div>
+          <div class="col-12 col-md-5">
+            <img src="assets/images/rafiki.png" alt="Dedicated Team" class="img-fluid w-100"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Impact -->
+  <section class="py-5 bg-light">
+    <div class="container text-center">
+      <h3 class="section-heading">Support Outcomes</h3>
+      <p class="mb-4">Metrics proving our delivery & support excellence</p>
+      <div class="row gx-4 gy-4">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="stat-card position-relative p-4 bg-white">
+            <span class="stat-dot"></span>
+            <div class="text-start">
+              <h3 class="display-6 mb-2 text-orange">99.9%</h3>
+              <p class="mb-0 text-muted">Service Uptime</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="stat-card position-relative p-4 bg-white">
+            <span class="stat-dot"></span>
+            <div class="text-start">
+              <h3 class="display-6 mb-2 text-orange">50%</h3>
+              <p class="mb-0 text-muted">Issue Reduction</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="stat-card position-relative p-4 bg-white">
+            <span class="stat-dot"></span>
+            <div class="text-start">
+              <h3 class="display-6 mb-2 text-orange">40%</h3>
+              <p class="mb-0 text-muted">Faster Resolution Time</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="stat-card position-relative p-4 bg-white">
+            <span class="stat-dot"></span>
+            <div class="text-start">
+              <h3 class="display-6 mb-2 text-orange">65%</h3>
+              <p class="mb-0 text-muted">Cost Savings</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- CTA -->
+<section class="cta section-padding">
+  <div class="container text-center">
+    <h5 class="section-heading mb-3">Let’s Build Something Powerful</h5>
+    <p class="lead mb-4">Partner with Zlendo to elevate your delivery pipeline and exceed your project goals.</p>
+    <a href="contact-us.html" class="primary-btn btn-padding">Let’s Talk</a>
+  </div>
+</section>
+
+
+
+<footer class="footer bg-white border-top pt-5">
+  <div class="container pb-4">
+    <div class="row gy-4">
+      
+      <!-- Logo + Description -->
+      <div class="col-md-3">
+        <img src="assets/images/logo-main.svg" alt="Zlendo Logo" class="mb-3" style="max-width: 160px;">
+        <p class="small text-muted">Delivering intelligent, scalable AI solutions and digital platforms to accelerate enterprise transformation.</p>
+      </div>
+
+      <!-- Products -->
+      <div class="col-md-2 col-6">
+        <h6 class="text-uppercase text-dark mb-3 small fw-bold">Products</h6>
+        <ul class="list-unstyled small">
+          <li><a href="https://www.zlendosuite.com/zlendopeople.html" class="text-muted text-decoration-none">Zlendo People</a></li>
+          <li><a href="https://www.zlendosuite.com/zlendofinance.html" class="text-muted text-decoration-none">Zlendo Finance</a></li>
+          <li><a href="https://www.zlendosuite.com/zlendoai.html" class="text-muted text-decoration-none">Zlendo AI</a></li>
+          <li><a href="https://www.zlendosuite.com/iot.html" class="text-muted text-decoration-none">IoT</a></li>
+          <li><a href="https://www.zlendosuite.com/computervision.html" class="text-muted text-decoration-none">Computer Vision</a></li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div class="col-md-2 col-6">
+        <h6 class="text-uppercase text-dark mb-3 small fw-bold">Services</h6>
+        <ul class="list-unstyled small">
+          <li><a href="ai-strategy-consulting.html" class="text-muted text-decoration-none">AI Strategy & Consulting</a></li>
+          <li><a href="custom-ai-dev.html" class="text-muted text-decoration-none">Custom AI Development</a></li>
+          <li><a href="ai-integration-deployment.html" class="text-muted text-decoration-none">AI Integration & Deployment</a></li>
+          <li><a href="managed-ai-services.html" class="text-muted text-decoration-none">Managed AI Services</a></li>
+          <li><a href="software-dev.html" class="text-muted text-decoration-none">Software Development</a></li>
+          <li><a href="delivery.html" class="text-muted text-decoration-none">Delivery</a></li>
+        </ul>
+      </div>
+
+      <!-- Solutions -->
+      <div class="col-md-2 col-6">
+        <h6 class="text-uppercase text-dark mb-3 small fw-bold">Solutions</h6>
+        <ul class="list-unstyled small">
+          <li><a href="predictive-analytics.html" class="text-muted text-decoration-none">Predictive Analytics</a></li>
+          <li><a href="process-automation.html" class="text-muted text-decoration-none">Process Automation</a></li>
+          <li><a href="iot-experience.html" class="text-muted text-decoration-none">Industrial IoT</a></li>
+          <li><a href="customer-experience.html" class="text-muted text-decoration-none">Customer Experience</a></li>
+          <li><a href="supply-chain.html" class="text-muted text-decoration-none">Supply Chain AI</a></li>
+          <li><a href="data-engineering.html" class="text-muted text-decoration-none">Data Engineering</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-3">
+        <h6 class="text-uppercase text-dark mb-3 small fw-bold">Contact</h6>
+        <p class="small text-muted mb-1"><i class="bi bi-envelope me-2"></i>info@zlendo.com</p>
+        <p class="small text-muted mb-1"><i class="bi bi-telephone me-2"></i>+91-9876154321</p>
+        <p class="small text-muted mb-1"><i class="bi bi-geo-alt me-2"></i>36/1, Ganapathy St., Alagappan Nagar, Madurai, TN 625003</p>
+        <div class="mt-3">
+          <a href="#" class="text-muted me-3"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="text-muted me-3"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="text-muted"><i class="bi bi-facebook"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <hr class="my-4">
+
+    <!-- Bottom bar -->
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center small text-muted">
+      <div>&copy; 2025 Zlendo Technologies. All rights reserved.</div>
+      <div class="mt-2 mt-md-0">
+        <a href="#" class="text-muted me-3 text-decoration-none">Terms</a>
+        <a href="#" class="text-muted me-3 text-decoration-none">Privacy</a>
+        <a href="#" class="text-muted me-3 text-decoration-none">Security</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zlendo – AI-Powered Business Solutions</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  
+
+  <!-- Header -->
+  <header class="bg-white border-bottom">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand " href="index.html"><img src="assets/images/logo-main.svg"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navMain" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMain">
+          <ul class="navbar-nav mx-auto align-items-center">
+            <li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
+
+            <!-- Products Mega Menu -->
+            <li class="nav-item dropdown position-static">
+              <a class="nav-link dropdown-toggle" href="#" role="button"
+                 data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+              <div class="dropdown-menu mega-menu py-4 px-2" id="productsMega">
+                <div class="container">
+                  <ul class="nav nav-pills mega-tabs mb-4 column-gap-2" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link active" data-bs-toggle="pill" data-bs-target="#tabHR" onclick="event.stopPropagation()">Human Resource</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-bs-toggle="pill" data-bs-target="#tabFin" onclick="event.stopPropagation()">Finance</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-bs-toggle="pill" data-bs-target="#tabAI" onclick="event.stopPropagation()">AI</a>
+                    </li>
+                  </ul>
+
+                  <div class="tab-content mega-body ">
+                    <!-- Human Resource -->
+                    <div class="tab-pane fade show active" id="tabHR">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <h6 class="text-uppercase text-muted mb-4">Solution</h6>
+                          <h5 class="mb-2">Zlendo People</h5>
+                          <p class="text-muted">Optimizing People Management with an Advanced Zlendo People System for Seamless Process.</p>
+                          <a href="https://www.zlendosuite.com/zlendopeople.html" class="text-orange ">Learn More</a>
+                        </div>
+                        <div class="col-md-8">
+                          <h6 class="text-uppercase text-muted mb-4">Tools</h6>
+                          <div class="row">
+                            <div class="col-sm-6 col-lg-4 tool-item">
+                              <a href="https://www.zlendosuite.com/zlendopeople-people.html" class="roundness-2 d-inline-block p-2 prod-hov-fx">
+                                <div>
+                                  <strong>People Management</strong><br>
+                                  <small class="text-muted">Streamline employee data and simplify HR operations</small>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 tool-item">
+                              <a href="https://www.zlendosuite.com/zlendopeople-timesheet.html" class="roundness-2 d-inline-block p-2 prod-hov-fx">
+                                <div>
+                                  <strong>Timesheet Management</strong><br>
+                                  <small class="text-muted">Track hours and approvals</small>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 tool-item">
+                              <a href="https://www.zlendosuite.com/zlendopeople-lms.html" class="roundness-2 d-inline-block p-2 prod-hov-fx">
+                                <div>
+                                  <strong>Leave Management</strong><br>
+                                  <small class="text-muted">Automate leave tracking</small>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 tool-item">
+                              <a href="https://www.zlendosuite.com/zlendopeople-lms.html" class="roundness-2 d-inline-block p-2 prod-hov-fx">
+                                <div>
+                                  <strong>Payroll Management</strong><br>
+                                  <small class="text-muted">Compliant and secure payroll</small>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Finance -->
+                    <div class="tab-pane fade" id="tabFin">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <h6 class="text-uppercase text-muted mb-4">Solution</h6>
+                          <h5 class="mb-2">Zlendo Finance</h5>
+                          <p class="text-muted">Real-time financial insights and automated accounting workflows to drive profitability.</p>
+                          <a href="https://www.zlendosuite.com/zlendofinance.html" class="text-orange ">Learn More</a>
+                        </div>
+                        <div class="col-md-8">
+                          <h6 class="text-uppercase text-muted mb-4">Tools</h6>
+                          <div class="row">
+                            <div class="col-sm-12 col-lg-6 tool-item">
+                              <a href="https://www.zlendosuite.com/zlendofinance.html" class="roundness-2 d-inline-block p-2 prod-hov-fx">
+                                <div>
+                                  <strong>Invoice Management</strong><br>
+                                  <small>Invoice and payment tracking, and approvals ensuring a seamless experience</small>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- AI -->
+                    <div class="tab-pane fade" id="tabAI">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <h6 class="text-uppercase text-muted mb-4">Solution</h6>
+                          <h5>Zlendo AI</h5>
+                          <p>AI - driven automation — enhancing document processing, analytics, chatbots, and computer vision to streamline business operation effortlessly</p>
+                          <a href="#" class="text-orange ">Learn More</a>
+                        </div>
+                        <div class="col-md-8">
+                          <h6 class="text-uppercase text-muted mb-4">Tools</h6>
+                          <div class="row">
+                            <div class="col-sm-6 col-lg-4 tool-item">
+                              <a href="https://www.zlendosuite.com/zlendoai.html" class="roundness-2 d-inline-block p-2 prod-hov-fx">
+                                <div>
+                                  <strong>Zlendo iDocX</strong><br>
+                                  <small>Forecast trends and behavior</small>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 tool-item">
+                              <a href="https://www.zlendosuite.com/iot.html" class="roundness-2 d-inline-block p-2 prod-hov-fx">
+                                <div>
+                                  <strong>IoT</strong><br>
+                                  <small>Conversational automation</small>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 tool-item">
+                              <a href="https://www.zlendosuite.com/computervision.html" class="roundness-2 d-inline-block p-2 prod-hov-fx">
+                                <div>
+                                  <strong>Computer Vision</strong><br>
+                                  <small>Conversational automation</small>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- /.tab-content -->
+                </div>
+              </div>
+            </li>
+
+            <!-- Services dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button">
+                Services
+              </a>
+              <ul class="dropdown-menu p-3">
+                <li><a class="dropdown-item" href="ai-strategy-consulting.html">AI Strategy & Consulting</a></li>
+                <li><a class="dropdown-item" href="custom-ai-dev.html">Custom AI Development</a></li>
+                <li><a class="dropdown-item" href="ai-integration-deployment.html">AI Integration & Deployment</a></li>
+                <li><a class="dropdown-item" href="managed-ai-services.html">Managed AI Services</a></li>
+                <li><a class="dropdown-item" href="software-dev.html">Software Development</a></li>
+                <li><a class="dropdown-item" href="delivery.html">Delivery</a></li>
+              </ul>
+            </li>
+
+            <!-- Solutions dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button">
+                Solutions
+              </a>
+              <ul class="dropdown-menu  p-3">
+                <li><a class="dropdown-item" href="predictive-analytics.html">AI-Powered Predictive Analytics</a></li>
+                <li><a class="dropdown-item" href="process-automation.html">Intelligent Process Automation</a></li>
+                <li><a class="dropdown-item" href="iot-experience.html">AI for Industrial IoT</a></li>
+                <li><a class="dropdown-item" href="customer-experience.html">Customer Experience AI</a></li>
+                <li><a class="dropdown-item" href="data-engineering.html">Data Engineering</a></li>
+                <li><a class="dropdown-item" href="supply-chain.html">AI-Driven Supply Chain Optimization</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <a href="contact-us.html" class="btn-padding btn-outline-primary rounded-pill ms-lg-3">Contact Us</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+
+<!-- Banner Section -->
+<section class="banner section-padding">
+  <div class="container">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-12 col-md-6">
+        <div class="banner-txt">
+          <h1 class="mb-3"><span class="text-orange">Data Engineering</span> & ETL Pipelines</h1>
+          <h5 class="mb-3 text-orange">Transform raw data into actionable enterprise intelligence</h5>
+          <p class="mb-3">We architect, implement, and optimize scalable data pipelines to power analytics, AI, and operational systems.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-5">
+        <div class="banner-img">
+          <img src="assets/images/Ai-power -press-automation.png" class="img-fluid w-100">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Intro Text -->
+<section class="what-ipa-txt section-padding">
+  <div class="container text-start">
+    <h2 class="w-75 mx-auto text-orange">
+      Enterprise data is fragmented and underutilized. Zlendo bridges the gap with robust ETL pipelines, data validation, and cloud-native platforms—fueling advanced analytics and automation.
+    </h2>
+  </div>
+</section>
+
+<!-- Challenges -->
+<section class="why-zlendo section-padding bg-grey">
+  <div class="container text-center">
+    <h2 class="section-heading">The Data Engineering Challenges</h2>
+    <p class="mt-3 mb-4">Why most organizations fail to extract value from data at scale:</p>
+    <div class="row justify-content-center">
+      <div class="col-md-4 col-sm-6 mb-3">
+        <div class="light-card text-center">
+          <img src="assets/images/lt-sample-icon.svg" class="d-inline-block">
+          <h5 class="mt-2 mb-2">Data Silos</h5>
+          <p class="lt-desc-txt">Disconnected sources make it hard to build a single source of truth.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 mb-3">
+        <div class="light-card text-center">
+          <img src="assets/images/lt-sample-icon.svg" class="d-inline-block">
+          <h5 class="mt-2 mb-2">Unreliable ETL Pipelines</h5>
+          <p class="lt-desc-txt">Breakdowns in transformation logic cause inconsistent data across systems.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 mb-3">
+        <div class="light-card text-center">
+          <img src="assets/images/lt-sample-icon.svg" class="d-inline-block">
+          <h5 class="mt-2 mb-2">Validation Bottlenecks</h5>
+          <p class="lt-desc-txt">Manual QA slows insights and increases the risk of data errors.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Why Zlendo -->
+<section class="why-zlendo section-padding">
+  <div class="container text-center">
+    <h2 class="section-heading">Why Zlendo for Data Engineering?</h2>
+    <p class="my-4">We combine deep data engineering expertise with automation-first delivery models.</p>
+    <div class="row g-2 justify-content-center">
+      <div class="col-md-4 col-12 col-sm-6">
+        <div class="why-card text-center">
+          <img src="assets/images/industry-expert.png" class="d-inline-block">
+          <h5 class="mt-2">Cloud-Ready Architectures</h5>
+          <p class="lt-desc-txt">Leverage AWS, Azure, or GCP to centralize, scale, and secure your pipelines.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-12 col-sm-6">
+        <div class="why-card text-center">
+          <img src="assets/images/endtoend.png" class="d-inline-block">
+          <h5 class="mt-2">End-to-End Pipelines</h5>
+          <p class="lt-desc-txt">From ingestion to validation to orchestration — we handle it all.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-12 col-sm-6">
+        <div class="why-card text-center">
+          <img src="assets/images/secure.png" class="d-inline-block">
+          <h5 class="mt-2">Automated Data Validation</h5>
+          <p class="lt-desc-txt">Our data validation portal ensures consistency and confidence in insights.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-12 col-sm-6">
+        <div class="why-card text-center">
+          <img src="assets/images/success.png" class="d-inline-block">
+          <h5 class="mt-2">Industry Use Cases</h5>
+          <p class="lt-desc-txt">We've delivered data platforms for nonprofits, finance, logistics, and more.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="zlendo-ipa-process" class="py-5">
+  <div class="container">
+    <h2 class="section-heading text-center mb-3">Our Data Engineering Approach</h2>
+        
+    <div class="row align-items-center justify-content-center">
+      <!-- Left: Dynamic Illustration -->
+      <div class="col-12 col-md-5 mb-4 mb-md-0">
+        <div class="ratio ratio-4x3 rounded overflow-hidden shadow-sm">
+          <img
+            id="translate-illustration"
+            src="assets/images/sect-samp-img.jpg"
+            alt="Translate with Lens"
+            class="object-fit-cover w-100 h-100"
+          >
+        </div>
+      </div>
+
+      <!-- Right: Styled Accordion -->
+      <div class="col-12 col-md-4">
+        
+
+        <div class="accordion custom-accordion" id="ipaAccordion">
+          <!-- Panel 1 -->
+          <div class="accordion-item mb-3">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+                data-img="assets/images/sect-samp-img.jpg"
+              >
+                ETL Design & Development
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#ipaAccordion"
+            >
+              <div class="accordion-body">
+                <p class="text-muted">Architect robust Extract-Transform-Load pipelines using tools like Apache NiFi, Talend, Azure Data Factory, or Airflow.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel 2 -->
+          <div class="accordion-item mb-3">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+                data-img="assets/images/sect-samp-img2.jpg"
+              >
+                Data Validation Portal
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#ipaAccordion"
+            >
+              <div class="accordion-body">
+                <p class="text-muted">Deploy real-time dashboards and workflows for QA, reconciliation, and anomaly detection — powered by AI.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel 3 -->
+          <div class="accordion-item mb-3">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+                data-img="assets/images/sect-samp-img.jpg"
+              >
+                Data Platform Implementation
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#ipaAccordion"
+            >
+              <div class="accordion-body">
+                <p class="text-muted">Build secure, scalable data platforms — as done for a leading children's charity to centralize general ledger and ops data.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.accordion -->
+      </div>
+      <!-- /.col -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>
+
+
+
+
+
+
+<!-- Stats Section -->
+<section class="py-5 bg-light">
+  <div class="container text-center">
+    <h3 class="section-heading mb-4">Real-World Results</h3>
+    <div class="row gy-4">
+      <div class="col-md-3 col-sm-6">
+        <div class="stat-card p-4 bg-white">
+          <h3 class="text-orange text-start">80%</h3>
+          <p class="text-muted mb-0 text-start">Faster data integration</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="stat-card p-4 bg-white">
+          <h3 class="text-orange text-start">60%</h3>
+          <p class="text-muted mb-0 text-start">Reduction in data QA effort</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="stat-card p-4 bg-white">
+          <h3 class="text-orange text-start">99.99%</h3>
+          <p class="text-muted mb-0 text-start">Data pipeline reliability</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="stat-card p-4 bg-white">
+          <h3 class="text-orange text-start">100%</h3>
+          <p class="text-muted mb-0 text-start">Audit trail and traceability</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta section-padding">
+  <div class="container text-center">
+    <h4 class="section-heading mb-3">Let’s Build Your Enterprise Data Backbone</h4>
+    <p class="lead mb-4">Schedule a strategy session to discuss your data engineering needs with our experts.</p>
+    <a href="contact-us.html" class="primary-btn btn-padding">Talk to Us</a>
+  </div>
+</section>
+
+
+
+
+<footer class="footer bg-white border-top pt-5">
+  <div class="container pb-4">
+    <div class="row gy-4">
+      
+      <!-- Logo + Description -->
+      <div class="col-md-3">
+        <img src="assets/images/logo-main.svg" alt="Zlendo Logo" class="mb-3" style="max-width: 160px;">
+        <p class="small text-muted">Delivering intelligent, scalable AI solutions and digital platforms to accelerate enterprise transformation.</p>
+      </div>
+
+      <!-- Products -->
+      <div class="col-md-2 col-6">
+        <h6 class="text-uppercase text-dark mb-3 small fw-bold">Products</h6>
+        <ul class="list-unstyled small">
+          <li><a href="https://www.zlendosuite.com/zlendopeople.html" class="text-muted text-decoration-none">Zlendo People</a></li>
+          <li><a href="https://www.zlendosuite.com/zlendofinance.html" class="text-muted text-decoration-none">Zlendo Finance</a></li>
+          <li><a href="https://www.zlendosuite.com/zlendoai.html" class="text-muted text-decoration-none">Zlendo AI</a></li>
+          <li><a href="https://www.zlendosuite.com/iot.html" class="text-muted text-decoration-none">IoT</a></li>
+          <li><a href="https://www.zlendosuite.com/computervision.html" class="text-muted text-decoration-none">Computer Vision</a></li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div class="col-md-2 col-6">
+        <h6 class="text-uppercase text-dark mb-3 small fw-bold">Services</h6>
+        <ul class="list-unstyled small">
+          <li><a href="ai-strategy-consulting.html" class="text-muted text-decoration-none">AI Strategy & Consulting</a></li>
+          <li><a href="custom-ai-dev.html" class="text-muted text-decoration-none">Custom AI Development</a></li>
+          <li><a href="ai-integration-deployment.html" class="text-muted text-decoration-none">AI Integration & Deployment</a></li>
+          <li><a href="managed-ai-services.html" class="text-muted text-decoration-none">Managed AI Services</a></li>
+          <li><a href="software-dev.html" class="text-muted text-decoration-none">Software Development</a></li>
+          <li><a href="delivery.html" class="text-muted text-decoration-none">Delivery</a></li>
+        </ul>
+      </div>
+
+      <!-- Solutions -->
+      <div class="col-md-2 col-6">
+        <h6 class="text-uppercase text-dark mb-3 small fw-bold">Solutions</h6>
+        <ul class="list-unstyled small">
+          <li><a href="predictive-analytics.html" class="text-muted text-decoration-none">Predictive Analytics</a></li>
+          <li><a href="process-automation.html" class="text-muted text-decoration-none">Process Automation</a></li>
+          <li><a href="iot-experience.html" class="text-muted text-decoration-none">Industrial IoT</a></li>
+          <li><a href="customer-experience.html" class="text-muted text-decoration-none">Customer Experience</a></li>
+          <li><a href="supply-chain.html" class="text-muted text-decoration-none">Supply Chain AI</a></li>
+          <li><a href="data-engineering.html" class="text-muted text-decoration-none">Data Engineering</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-3">
+        <h6 class="text-uppercase text-dark mb-3 small fw-bold">Contact</h6>
+        <p class="small text-muted mb-1"><i class="bi bi-envelope me-2"></i>info@zlendo.com</p>
+        <p class="small text-muted mb-1"><i class="bi bi-telephone me-2"></i>+91-9876154321</p>
+        <p class="small text-muted mb-1"><i class="bi bi-geo-alt me-2"></i>36/1, Ganapathy St., Alagappan Nagar, Madurai, TN 625003</p>
+        <div class="mt-3">
+          <a href="#" class="text-muted me-3"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="text-muted me-3"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="text-muted"><i class="bi bi-facebook"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <hr class="my-4">
+
+    <!-- Bottom bar -->
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center small text-muted">
+      <div>&copy; 2025 Zlendo Technologies. All rights reserved.</div>
+      <div class="mt-2 mt-md-0">
+        <a href="#" class="text-muted me-3 text-decoration-none">Terms</a>
+        <a href="#" class="text-muted me-3 text-decoration-none">Privacy</a>
+        <a href="#" class="text-muted me-3 text-decoration-none">Security</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  
+  // Map each accordion button’s data-bs-target to its replacement image
+  const featureImages = {
+    "#collapseOne": "assets/images/sect-samp-img.jpg",
+    "#collapseTwo": "assets/images/sect-samp-img2.jpg",
+    "#collapseThree": "assets/images/sect-samp-img.jpg"
+  };
+
+  // Grab the <img> we’ll be swapping
+  const featureImage = document.getElementById("translate-illustration");
+
+  // Attach a listener to each collapse
+  Object.keys(featureImages).forEach(collapseId => {
+    const collapseEl = document.querySelector(collapseId);
+    collapseEl.addEventListener("show.bs.collapse", () => {
+      // Fade out
+      featureImage.style.transition = "opacity 0.3s";
+      featureImage.style.opacity = 0;
+
+      // After fade-out, swap src and fade in
+      setTimeout(() => {
+        featureImage.src = featureImages[collapseId];
+        featureImage.style.opacity = 1;
+      }, 300);
+    });
+  });
+</script>
+</body>
+</html>
